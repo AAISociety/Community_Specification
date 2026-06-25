@@ -2,7 +2,7 @@
 
 ## Code of Conduct
 
-Contact for Code of Conduct issues or inquires:  _________________
+Contact for Code of Conduct issues or inquires:  Tricia Wang tricia@advancecaisociety.org , Michael Casey michael@advancedaisociety.org
 
 [Ideally list two different individuals above (not a generic mailing list) as someone submitting a Code of Conduct complaint will want to know exactly who is receiving the complaint. We recommend two individuals in the case one of the individuals is the subject of or directly involved in the subject of a complaint.]
 
@@ -15,23 +15,24 @@ A Licensee may consent to accepting the current Community Specification License 
 
 ---------------------------------------------------------------------------------
 
-Licensee’s name:
+Licensee’s name: Advanced AI Society for Verifiability (operating as Advanced AI Society)
 
-Authorized individual and system identifier:
+Authorized individual and system identifier:Tricia Wang, GitHub: @triciawangAAI
 
-Specification version:
+Specification version:1.0 or later
 
 ---------------------------------------------------------------------------------
 
 ## Withdrawals
 
-Name of party withdrawing:
+Name of party withdrawing: (none)
 
 Date of withdrawal:
 
 ---------------------------------------------------------------------------------
 
 ## Exclusions
+(none)
 
 This section includes any Exclusion Notices made against a Draft Deliverable or Approved Deliverable as set forth in the Community Specification Development License.  Each Exclusion Notice must include the following information:
 
