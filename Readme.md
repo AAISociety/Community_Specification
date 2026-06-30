@@ -1,23 +1,107 @@
-# Community Specification
+Open Verification: Proof-of-Control over AI Agents
 
-## What is the Community Specification For?
+So humans can trust agents.
 
-The Community Specification process is a repository-based approach for creating standards and specifications in version control systems, such as Git.
+Helping anyone who relies on an AI system trust that it did only what it was
+authorized to do, because an independent party can check it.
 
-## What is the benefit?
+What this is
 
-The Community Specification allows you to start a specification development effort as easily as an open source project.  The Community Specification incorporates the terms and processes required for standards and specification development, including legal terms, intellectual property issues, due process, and governance.  It also provides the mechanisms to allow your project to grow and scale.  For example, the Community Specification provides the basis to take your specification to other standards bodies, including international standards bodies, for formal standardization if your community desires to pursue those options.
+Open Verification is the framing for this work. When an AI system acts on
+your behalf, you should be able to trust what it did because it can be checked,
+not because the operator asserts it. Open Verification opens that conversation.
+It is intentionally left undefined here and is not a formal deliverable of this
+working group.
 
-## How to get started?
+Proof-of-Control is the technical core. As working technical language:
+Proof-of-Control is a continuously verifiable chain of custody for what an AI
+system did, backed by cryptographic verifiability and not tied to any one
+stack. (This is the language for the technical write-up, not the public hook.)
 
-Instructions for using the Community Specification are included in the getting-started.md file.
+The near-term output is the Trustworthiness in Agents Matrix: the six
+Domains of Verification mapped against levels of verifiability, with example use
+cases, so an organization can make a strategic choice about how much
+verifiability it needs and where. It is not a maturity model and not a linear
+better-to-worse progression.
 
-## Could I just use an open source license for my specifications? Why should I use a specification license?
+Why it exists
 
-Open source is collaboration around a specific codebase, while specifications provide a blueprint developers implement in different ways in many different codebases. Accordingly, open source licenses provide terms to use and modify a particular codebase and specification licenses are designed to provide terms for separate independent implementations of the specification. Because of this, if you use an open source license for specifications, people implementing those specifications may be doing so without the meaningful copyright or patent grants that you expect.
+Autonomous AI agents now make decisions, move data, and act across
+organizational boundaries. The more useful the agent, the more boundaries it
+crosses, and the less anyone can independently verify what it actually did.
+The technology to verify exists, but it is sold under different names against no
+shared definition, so a buyer cannot compare vendors, specify what to procure,
+or tell whether a claim is real. This work defines the shared, checkable
+foundation.
 
-A second difference is that common open source software and specification licenses tend to have different coverage scopes for intellectual property terms. Open source licenses generally grant terms scoped only to a contributor's contributions. Specification licenses, however, generally cover implementations of the entire specification, regardless of who made the actual contribution. Because the specification will often be developed with contributions from multiple organizations, the various contributing organizations will often want to review and approve the full specification before extending patent commitments to the final, combined result.
+The six Domains of Verification
 
-## Who developed the Community Specification
+Privacy, Portability, Authorization, Security, Identity, and Provenance. The
+working groups define what each domain means at each level of verifiability.
 
-The Community Specification has been developed via the [Joint Development Foundation](http://www.jointdevelopment.org), with inspiration from the [Open Web Foundation agreements](http://openwebfoundation.org) and the [Alliance for Open Media Patent License 1.0](http://aomedia.org/license/patent-license/).
+Status
+
+Early and active. The first public milestone is a working matrix, not a
+finished standard: the six domains mapped against levels of verifiability, with
+example use cases and light Open Verification framing. Scope, definitions, the
+matrix structure, and terminology will change. Changes of Scope are not
+retroactive (see the governance files). The working group intends to propose
+this effort to LF Decentralized Trust as a Community Specification; that status
+is planned, not yet established.
+
+What is in this repository
+
+
+02-scope.md — what the working group will and will not produce.
+03-notices.md — Code of Conduct contacts, license acceptance, withdrawals,
+exclusions.
+05-governance.md — how decisions are made.
+06-contributing.md — how to contribute.
+07-spec-template.md — the structure the specification itself follows.
+00-, 01-, 04-, 08- — contributor license agreement, specification
+license, license, and code of conduct (standard Community Specification text).
+
+
+How to participate
+
+This effort runs as an open, repository-based collaboration under the Community
+Specification process. To take part:
+
+
+Read 02-scope.md to see what is in scope.
+Open an issue to raise a question, gap, or disagreement.
+Open a pull request to propose specific changes.
+See 06-contributing.md for how contributions are reviewed and how decisions
+are reached.
+
+
+Participation carries intellectual-property commitments. Before contributing,
+read the license files (00-, 01-, 04-) and the acceptance process in
+03-notices.md.
+
+Governance and license
+
+Governance follows the Community Specification process (see 05-governance.md).
+Contributions and participation are governed by the Community Specification
+License 1.0 (see 01- and 04-). The working group intends to publish the
+final specification under an open license so it can be implemented freely; the
+exact terms are set in the license files in this repository.
+
+Code of Conduct
+
+We are committed to an open, welcoming, and harassment-free community. See
+08-code-of-conduct.md. Report concerns to either:
+Tricia Wang (tricia the @ sign advancedaisociety.org) 
+
+Maintainers
+
+
+Tricia Wang, Advanced AI Society (co-chair)
+Ken Huang (co-chair)
+
+
+About
+
+This work is convened by Advanced AI Society, the industry body for verifiable
+AI, working with the broader field. It is developed as an open, vendor-neutral
+public good, owned by no single member or vendor.
