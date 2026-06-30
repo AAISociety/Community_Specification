@@ -1,11 +1,10 @@
-Open Verification: Proof-of-Control over AI Agents
-
+#Open Verification: Proof-of-Control over AI Agents
 So humans can trust agents.
 
 Helping anyone who relies on an AI system trust that it did only what it was
 authorized to do, because an independent party can check it.
 
-What this is
+##What this is
 
 Open Verification is the framing for this work. When an AI system acts on
 your behalf, you should be able to trust what it did because it can be checked,
