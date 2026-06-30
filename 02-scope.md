@@ -1,43 +1,48 @@
-# Scope
+# Open Verification: Proof-of-Control over AI Agents — Working Group Scope
 
-# Open Verification: Proof-of-Control of AI — Working Group Scope
+*So humans can trust agents.*
 
-The goal is open verification: the ability to trust that an AI system did only
-what it was authorized to do, because an independent party can check it, not
-because the operator asserts it. Open verification means the standard, the
-method, and the tools used to check what a system did are themselves open,
-independent, and inspectable, which is what turns a claim into checkable
-evidence. (This concerns the openness of the verification system, not whether
-any AI model is open-source.)
+Open Verification is the framing for this work: helping anyone who relies on an
+AI system trust that it did only what it was authorized to do, because an
+independent party can check it, not because the operator asserts it. Open
+Verification opens the conversation. It is intentionally left undefined in this
+document and is not a formal deliverable of the working group.
 
-Proof-of-Control is the technical framework for open verification: the evidence
-properties, the Domains of Verification, and the spectrum of verification by
-which evidence is graded. This Working Group develops the Standard that defines
-the cryptographic stage of that framework: independently verifiable evidence of
-what an AI system did, the data it touched, the actions it took, and whether it
-stayed within its authorized boundaries.
+Proof-of-Control is the technical core. As working technical language:
+Proof-of-Control is a continuously verifiable chain of custody for what an AI
+system did, backed by cryptographic verifiability and not tied to any one stack.
+
+The near-term output is the Trustworthiness in Agents Matrix: the six Domains
+of Verification mapped against levels of verifiability, with example use cases,
+so an organization can make a strategic choice about how much verifiability it
+needs and where. It is not a maturity model and not a linear better-to-worse
+progression.
 
 ## In scope
-- The definition of Proof-of-Control evidence and its required properties
-  (contemporaneous, tamper-evident, attributable, independently checkable).
-- The Domains of Verification: the categories of control boundary an AI system
-  must demonstrate it honored. The specific domains are to be defined and
-  maintained by the Working Group.
-- The Proof-of-Control Spectrum, that defines the levels of trustworthiness depending on the level of verification
-- A conformance model: the binary conformance threshold and a standardized
-  trust-assumption disclosure.
-- An assessment methodology by which an independent party can confirm a
-  conformance claim (open verification in practice).
-- Mappings to existing frameworks (e.g. NIST AI RMF, ISO/IEC 42001, CSA MAESTRO,
+
+- The six Domains of Verification: Privacy, Portability, Authorization,
+  Security, Identity, and Provenance. The working groups define what each
+  domain means at each level of verifiability.
+- The Trustworthiness in Agents Matrix: the domains mapped against levels of
+  verifiability, with example use cases.
+- A working definition of Proof-of-Control and the properties of the evidence
+  it produces.
+- Over time, conformance and assessment criteria for verifiable evidence, and
+  mappings to existing frameworks (NIST AI RMF, ISO/IEC 42001, CSA MAESTRO,
   OWASP) for interoperability.
 
 ## Out of scope
+
+- A formal definition of Open Verification. It is the framing that opens the
+  conversation, not a deliverable of this group.
+- Whether an AI model is open-source or proprietary. Open Verification concerns
+  whether a system's behavior can be independently checked, not exposure of the
+  model or system internals. Regulated and proprietary systems can take part
+  without revealing what they are not required to reveal.
 - Certification operations, accreditation, and any trust mark, which are
   governed separately.
 - Insurance products, underwriting rules, and pricing.
-- Requirements for what an AI model should do or how it is built; this Standard
+- Requirements for what an AI model should do or how it is built. This work
   concerns evidence of what a system did, not model quality, safety, or
   correctness.
-- Whether an AI model is open-source or proprietary; open verification concerns
-  the verification system, not the model.
-- Mandating any specific vendor, product, or service.
+- Mandating any specific vendor, product, or stack.
