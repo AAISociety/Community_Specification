@@ -1,6 +1,6 @@
 # Scope
 
-# Proof-of-Control Cryptographic Verification Standard — Working Group Scope
+# Open Verification: Proof-of-Control of AI — Working Group Scope
 
 The goal is open verification: the ability to trust that an AI system did only
 what it was authorized to do, because an independent party can check it, not
@@ -23,13 +23,12 @@ stayed within its authorized boundaries.
 - The Domains of Verification: the categories of control boundary an AI system
   must demonstrate it honored. The specific domains are to be defined and
   maintained by the Working Group.
-- The Proof-of-Control Spectrum, with normative requirements for Stage 3
-  (Cryptographically Verifiable).
+- The Proof-of-Control Spectrum, that defines the levels of trustworthiness depending on the level of verification
 - A conformance model: the binary conformance threshold and a standardized
   trust-assumption disclosure.
 - An assessment methodology by which an independent party can confirm a
   conformance claim (open verification in practice).
-- Mappings to existing frameworks (NIST AI RMF, ISO/IEC 42001, CSA MAESTRO,
+- Mappings to existing frameworks (e.g. NIST AI RMF, ISO/IEC 42001, CSA MAESTRO,
   OWASP) for interoperability.
 
 ## Out of scope
